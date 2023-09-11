@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Drag Drop image here!</h1>
+        
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="https://images.pexels.com/photos/2341830/pexels-photo-2341830.jpeg?auto=compress&cs=tinysrgb&w=600" draggable="true" ondragstart="drag(event)" id="drag1" alt=""></div>
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
